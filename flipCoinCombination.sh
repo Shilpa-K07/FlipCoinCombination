@@ -1,5 +1,13 @@
 echo welcome to flip coin combination problem !!
 
+if [[ $randomNum -eq 0 ]]
+then
+	echo HEAD
+else
+	echo TAIL
+fi
+
+echo multiple time flipping and finding singlet percentage
 i=0
 declare -A dictionary
 
