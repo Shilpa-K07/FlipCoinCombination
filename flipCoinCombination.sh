@@ -1,4 +1,4 @@
-echo welcome to flip coin combination problem !
+echo welcome to flip coin combination problem !!
 
 randomNum=$((RANDOM%2))
 
